@@ -1,0 +1,78 @@
+HELP.md
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+
+### Front End
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/src/main/resources/webapp/dist
+/src/main/resources/webapp/tmp
+/src/main/resources/webapp/out-tsc
+# Only exists if Bazel was run
+/src/main/resources/webapp/bazel-out
+
+# dependencies
+/src/main/resources/webapp/node_modules
+
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
+
+# IDEs and editors
+/src/main/resources/webapp/.idea
+/src/main/resources/webapp/.project
+/src/main/resources/webapp/.classpath
+/src/main/resources/webapp/.c9/
+/src/main/resources/webapp/*.launch
+/src/main/resources/webapp/.settings/
+/src/main/resources/webapp/*.sublime-workspace
+
+# IDE - VSCode
+/src/main/resources/webapp/.vscode/*
+/src/main/resources/webapp/!.vscode/settings.json
+/src/main/resources/webapp/!.vscode/tasks.json
+/src/main/resources/webapp/!.vscode/launch.json
+/src/main/resources/webapp/!.vscode/extensions.json
+/src/main/resources/webapp/.history/*
+
+# misc
+/src/main/resources/webapp//.sass-cache
+/src/main/resources/webapp//connect.lock
+/src/main/resources/webapp//coverage
+/src/main/resources/webapp//libpeerconnection.log
+/src/main/resources/webapp/npm-debug.log
+/src/main/resources/webapp/yarn-error.log
+/src/main/resources/webapp/testem.log
+/src/main/resources/webapp//typings
+
+# System Files
+/src/main/resources/webapp/.DS_Store
+/src/main/resources/webapp/Thumbs.db
+
+
